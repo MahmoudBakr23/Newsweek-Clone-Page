@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  background-color: red;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.heading {
+  color: #999;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.us {
+  background-color: rgb(224, 224, 224);
+  margin-top: -35px;
+}
+
+.us a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.story-body a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.story-tag:hover {
+  color: #f42;
+  text-decoration: underline;
+}
