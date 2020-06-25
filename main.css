@@ -143,6 +143,26 @@ header img {
   font-size: 1.4em;
 }
 
+.topic-item a {
+  font-size: 1.3em;
+  line-height: 1.1;
+}
+
+.topic-items > div:first-of-type {
+  height: 25%;
+}
+
+.topic-heading a {
+  color: #f72210;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.topics a {
+  font-weight: bold;
+  color: #000;
+}
+
 @media only screen and (max-width: 576px) {
   header {
     margin: 0;
