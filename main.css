@@ -73,6 +73,38 @@ header img {
   cursor: pointer;
 }
 
+.people img {
+  border: 0.1px solid white;
+  border-radius: 30px;
+  background-color: red;
+  height: 60px;
+  width: 65px;
+  margin: 0 1.5%;
+}
+
+.people-red {
+  border-top: 5px solid red;
+}
+
+.people-blue {
+  border-bottom: 5px solid blue;
+}
+
+.people a:hover {
+  color: red;
+}
+
+.people-tag {
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.people span {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 576px) {
   header {
     margin: 0;
