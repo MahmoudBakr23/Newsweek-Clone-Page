@@ -4,6 +4,7 @@ body {
 
 header {
   background-color: red;
+  margin: 0 1.9%;
 }
 
 .nav-link {
@@ -16,13 +17,19 @@ header {
   font-weight: bold;
 }
 
-.us {
+.category,
+.category-2 {
   background-color: rgb(224, 224, 224);
   margin-top: -35px;
 }
 
-.us a {
+.category a {
   color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.category-2 a {
   text-decoration: none;
   font-weight: bold;
 }
@@ -30,12 +37,32 @@ header {
 .story-body a {
   text-decoration: none;
   color: black;
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .story-tag:hover {
-  color: #f42;
+  color: red;
   text-decoration: underline;
+}
+
+header img {
+  width: 350px;
+  height: auto;
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    margin: 0;
+  }
+
+  header img {
+    width: 120px;
+    margin-left: 0;
+  }
+
+  .story-head img {
+    width: 100%;
+  }
 }

@@ -10,19 +10,20 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header class="sticky-top mx-4">
+    <header class="sticky-top">
         <div class="container-fluid d-flex justify-content-between">
-            <div class="weather my-auto">
+            <div class="weather mt-3 d-lg-block d-none">
                 <a href="#" class="text-white"><i class="fas fa-cloud"></i> 28 Alexandria, EG ></a>
-                <p class="text-white align-self-center">Wed, Jun 24, 2020</p>
+                <p class="text-white align-self-center mt-2">Wed, Jun 24, 2020</p>
             </div>
-            <img src="./Images/newsweek-logo.png" class="w-25 ml-5 my-auto" alt="Newsweek-logo">
-                <form action="#" class="form-inline my-auto">
+                <img src="./Images/newsweek-logo.png" class="my-auto" alt="Newsweek-logo">  
+            <form action="#" class="form-inline my-auto d-lg-block d-sm-flex d-md-flex">
                     <button class="btn text-white mx-2" type="button" name="login">Login</button>
                     <button class="btn btn-warning text-dark py-0">30 DAY FREE TRIAL ></button>
+                    <i class="fa fa-bars text-white d-lg-none d-md-flex d-sm-flex px-2"></i>
                 </form>
             </div>
-            <div class="d-flex justify-content-between border-secondary border-bottom">
+            <div class="d-none d-lg-flex justify-content-between border-secondary border-bottom">
             <nav class="navbar navbar-light bg-white navbar-expand my-auto py-3">
                 <ul class="navbar-nav">
                     <li class="nav-item border-secondary border-right px-2">
@@ -70,13 +71,13 @@
     </header>
     <main class="my-3 mx-4">
          <div class="container-fluid">
-            <div class="row">
-                <div class="col-3 px-0">
+            <div class="row mx-3">
+                <div class="col-lg-3 col-md-5 col-12 px-0">
                     <h5 class="heading">FEATURED STORIES</h5>
                     <div class="story mt-1">
                     <div class="story-head">
                         <img src="./Images/img-1.webp" alt="feature-story" class="img-fluid">
-                        <h6 class="position-absolute py-2 px-3 us"><a href="#">U.S.</a></h6>
+                        <h6 class="position-absolute py-2 px-3 category"><a href="#">U.S.</a></h6>
                     </div>
                     <div class="story-body mt-2">
                         <a class="story-tag" href="#">Seattle Police, Protesters Brace for Violence as Mayor Orders CHOP Cleared</a>
@@ -88,7 +89,7 @@
                 <div class="story mt-1">
                     <div class="story-head">
                         <img src="./Images/img-1.webp" alt="feature-story" class="img-fluid">
-                        <h6 class="position-absolute py-2 px-3 us"><a href="#">U.S.</a></h6>
+                        <h6 class="position-absolute py-2 px-3 category"><a href="#">U.S.</a></h6>
                     </div>
                     <div class="story-body mt-2">
                         <a class="story-tag" href="#">Seattle Police, Protesters Brace for Violence as Mayor Orders CHOP Cleared</a>
@@ -100,7 +101,7 @@
                 <div class="story mt-1">
                     <div class="story-head">
                         <img src="./Images/img-1.webp" alt="feature-story" class="img-fluid">
-                        <h6 class="position-absolute py-2 px-3 us"><a href="#">U.S.</a></h6>
+                        <h6 class="position-absolute py-2 px-3 category"><a href="#">World</a></h6>
                     </div>
                     <div class="story-body mt-2">
                         <a class="story-tag" href="#">Seattle Police, Protesters Brace for Violence as Mayor Orders CHOP Cleared</a>
@@ -112,7 +113,7 @@
                 <div class="story mt-1">
                     <div class="story-head">
                         <img src="./Images/img-1.webp" alt="feature-story" class="img-fluid">
-                        <h6 class="position-absolute py-2 px-3 us"><a href="#">U.S.</a></h6>
+                        <h6 class="position-absolute py-2 px-3 category"><a href="#">News</a></h6>
                     </div>
                     <div class="story-body mt-2">
                         <a class="story-tag" href="#">Seattle Police, Protesters Brace for Violence as Mayor Orders CHOP Cleared</a>
@@ -124,7 +125,7 @@
                 <div class="story mt-1">
                     <div class="story-head">
                         <img src="./Images/img-1.webp" alt="feature-story" class="img-fluid">
-                        <h6 class="position-absolute py-2 px-3 us"><a href="#">U.S.</a></h6>
+                        <h6 class="position-absolute py-2 px-3 category"><a href="#">Sports</a></h6>
                     </div>
                     <div class="story-body mt-2">
                         <a class="story-tag" href="#">Seattle Police, Protesters Brace for Violence as Mayor Orders CHOP Cleared</a>
@@ -133,12 +134,72 @@
                         <p>"We're no longer allowed to use things like tear gas and pepper spray. The only thing that we can use is our sidearms or our batons."</p>
                     </div>
                 </div>
+                <div class="story mt-1">
+                    <div class="story-head">
+                        <img src="./Images/img-1.webp" alt="feature-story" class="img-fluid">
+                        <h6 class="position-absolute py-2 px-3 category-2"><a href="#">SPONSORED INSIGHT</a></h6>
+                    </div>
+                    <div class="story-body mt-2 mx-3">
+                        <a class="story-tag" href="#">What is an IB Private Education and Why is it so Important?</a>
+                    </div>
+                    <div class="story-foot mt-2 mx-3">
+                        <p>The aim of the IB is to offer the best possible international education for students of all backgrounds and from every part of the world. Find out more.</p>
+                    </div>
                 </div>
-                <div class="col-5">
-
+                <div class="story mt-1">
+                    <div class="story-head">
+                        <img src="./Images/img-1.webp" alt="feature-story" class="img-fluid">
+                        <h6 class="position-absolute py-2 px-3 category-2"><a href="#">SPONSORED INSIGHT</a></h6>
+                    </div>
+                    <div class="story-body mt-2 mx-3">
+                        <a class="story-tag" href="#">What is an IB Private Education and Why is it so Important?</a>
+                    </div>
+                    <div class="story-foot mt-2 mx-3">
+                        <p>The aim of the IB is to offer the best possible international education for students of all backgrounds and from every part of the world. Find out more.</p>
+                    </div>
+                </div>
+                <div class="story mt-1">
+                    <div class="story-head">
+                        <img src="./Images/img-1.webp" alt="feature-story" class="img-fluid">
+                        <h6 class="position-absolute py-2 px-3 category-2"><a href="#">SPONSORED INSIGHT</a></h6>
+                    </div>
+                    <div class="story-body mt-2 mx-3">
+                        <a class="story-tag" href="#">What is an IB Private Education and Why is it so Important?</a>
+                    </div>
+                    <div class="story-foot mt-2 mx-3">
+                        <p>The aim of the IB is to offer the best possible international education for students of all backgrounds and from every part of the world. Find out more.</p>
+                    </div>
+                </div>
+                <div class="story mt-1">
+                    <div class="story-head">
+                        <img src="./Images/img-1.webp" alt="feature-story" class="img-fluid">
+                        <h6 class="position-absolute py-2 px-3 category-2"><a href="#">SPONSORED INSIGHT</a></h6>
+                    </div>
+                    <div class="story-body mt-2 mx-3">
+                        <a class="story-tag" href="#">What is an IB Private Education and Why is it so Important?</a>
+                    </div>
+                    <div class="story-foot mt-2 mx-3">
+                        <p>The aim of the IB is to offer the best possible international education for students of all backgrounds and from every part of the world. Find out more.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-5 mx-4">
+                    <h5 class="heading">TOP STORY</h5>
+                    <div class="top-story">
+                        <div class="top-story-head">
+                            <img src="./Images/main-img.webp" alt="main-img" class="img-fluid">
+                            <h6 class="position-absolute py-2 px-3 category"><a href="#">U.S.</a></h6>
+                        </div>
+                        <div class="story-body mt-2">
+                            <a href="#" class="story-tag">House Judiciary Chair Reverses Course, Is 'Looking Into' Impeaching Barr</a>
+                        </div>
+                        <div class="story-foot mt-2">
+                            <p>House Judiciary Committee Chairman Jerry Nadler said Attorney General William Barr "has shown us that there is one set of rules for the President's friends, and another set of rules for the rest of us."</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-4">
-
+                    
                 </div>
             </div>
         </div>
