@@ -105,6 +105,44 @@ header img {
   font-weight: bold;
 }
 
+.magazine h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.grid-heading span {
+  height: 28px;
+  width: 29px;
+  background: red url('./Images/n.svg');
+}
+
+.magazine-item span {
+  font-weight: bold;
+}
+
+.magazine-item a {
+  font-weight: bold;
+}
+
+.magazine-item > a {
+  color: #000;  
+  line-height: 1.1;
+  font-size: 1.2em;
+}
+
+.magazine-item div a {
+  color: red;
+}
+
+.magazine .magazine-item img {
+  height: 60%;
+}
+
+.editors-pick .magazine-item > a {
+  font-size: 1.4em;
+}
+
 @media only screen and (max-width: 576px) {
   header {
     margin: 0;
