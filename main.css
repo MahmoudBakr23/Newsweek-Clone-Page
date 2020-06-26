@@ -163,6 +163,28 @@ header img {
   color: #000;
 }
 
+.img-1,
+.img-2 {
+  width: 160px;
+  height: 200px;
+  position: absolute;
+}
+
+.subscribe-content {
+  padding-left: 40%;
+  padding-top: 10%;
+}
+
+.img-1 {
+  left: 80px;
+  top: 50px;
+}
+
+.img-2 {
+  left: 170px;
+  top: 70px;
+}
+
 @media only screen and (max-width: 576px) {
   header {
     margin: 0;
