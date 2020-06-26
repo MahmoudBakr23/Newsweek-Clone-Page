@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -222,6 +226,11 @@ header img {
     margin: 0;
   }
 
+  /* .row {
+    padding: 0 auto;
+    margin: 0;
+  } */
+
   header img {
     width: 120px;
     margin-left: 0;
@@ -230,4 +239,19 @@ header img {
   .story-head img {
     width: 100%;
   }
+
+  .second-footer .footer-list {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .second-footer .footer-list li {
+    display: inline-block;
+  }
+
+  .second-footer .footer-list a {
+    font-size: 14px;
+  }
+
 }
