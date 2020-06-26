@@ -189,6 +189,34 @@ header img {
   height: 25%;
 }
 
+.form-inline input {
+  border: none;
+  font-size: 1.1em;
+}
+
+.search {
+  width: 20px;
+  height: 20px;
+  margin-left: -20px;
+}
+
+.form-inline .btn-warning {
+  font-weight: bold;
+  color: #000;
+  border-radius: 15px;
+}
+
+.form-inline button:first-of-type {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-inline .btn-warning img {
+  width: 10px;
+  height: 10px;
+  padding-left: 5px;
+}
+
 .img-2 {
   width: 160px;
   height: 200px;
