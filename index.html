@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="sticky-top">
+    <header class="sticky-top mx-auto">
         <div class="container-fluid d-flex justify-content-between">
             <div class="weather mt-3 d-lg-block d-none">
                 <a href="#" class="text-white"><i class="fas fa-cloud"></i> 28 Alexandria, EG ></a>
@@ -72,10 +72,10 @@
             </div>
         </div>
     </header>
-    <main class="my-3 ml-4 p-0">
+    <main class="my-3 mx-auto p-0">
         <div class="container-fluid">
-            <div class="row mx-3">
-                <div class="col-lg-3 col-md-5 col-12 px-0 order-1">
+            <div class="row pl-md-4">
+                <div class="col-lg-3 col-md-5 col-12 pr-md-2 px-0">
                     <h5 class="heading">FEATURED STORIES</h5>
                     <div class="story mt-1">
                         <div class="story-head">
@@ -204,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-5 col-md-7 mx-auto p-0">
+                <div class="col-12 col-lg-5 col-md-7 mx-auto pl-md-4 p-lg-0">
                     <h5 class="heading">TOP STORY</h5>
                     <div class="top-story">
                         <div class="top-story-head">
@@ -391,7 +391,7 @@
                                     <p>BY <span>LYMAN STONE AND W. BRADFORD WILCOX</span></p>
                                 </div>
                             </div>
-                            <div class="d-flex people people-blue pt-2">
+                            <div class="d-flex people people-blue pt-2 justify-content-md-between">
                                 <div>
                                     <a href="#" class="people-tag">Empty Cradles Means a Bleaker Future</a>
                                     <p>BY <span>LYMAN STONE AND W. BRADFORD WILCOX</span></p>
@@ -450,12 +450,15 @@
                                     might be the time to think about a career in coding.</p>
                             </div>
                         </div>
-                        <div class="col-12 mx-0 bg-light mt-4">
-                            <div class="d-flex justify-content-around">
-                                <h5>START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
+                        <div class="col-12 bg-light mt-4 start-day py-4">
+                            <div class="d-flex justify-content-between w-75 mx-auto">
+                                <span class="d-inline-block mr-2"></span>
+                                <h5 class='d-inline-block'>START YOUR DAY WITH OUR TOP 5 ARTICLES
+                                </h5>
                             </div>
                             <form action="#" class="text-center">
-                                <input type="email" name="email" class="form-control w-75 mx-auto my-2">
+                                <input type="email" name="email" placeholder="Email address"
+                                    class="form-control w-75 mx-auto my-2">
                                 <button class="btn btn-danger text-white py-1 px-5">FREE SIGN UP ></button>
                             </form>
                         </div>
@@ -488,12 +491,12 @@
             </div>
         </div>
     </main>
-    <div class="container-fluid">
-        <div class="magazine d-block border-secondary border-bottom pb-1 mx-4">
+    <div class="container-fluid magazine-container mx-auto">
+        <div class="magazine d-block border-secondary border-bottom pb-1">
             <h3 class="grid-heading align-items-center d-flex justify-content-center"><span
                     class="d-inline-block mr-2"></span>IN THEMAGAZINE</h3>
         </div>
-        <div class="row pt-4 mx-4">
+        <div class="row pt-4">
             <div class="col-lg-3 col-12 magazine-item mt-2">
                 <img src="./Images/cpm.webp" alt='magazine img' class='img-fluid'>
                 <div class='py-2'>
@@ -567,12 +570,12 @@
                     Crackdown</a>
             </div>
         </div>
-        <div class="magazine d-block border-secondary border-bottom pb-1 mx-4 mt-2">
+        <div class="magazine d-block border-secondary border-bottom pb-1 mt-2">
             <h3 class="grid-heading align-items-center d-flex justify-content-center"><span
                     class="d-inline-block mr-2"></span>EDITOR'S PICK
             </h3>
         </div>
-        <div class="row pt-2 mx-4 editors-pick border-secondary border-bottom">
+        <div class="row pt-2 editors-pick border-secondary border-bottom">
             <div class="col-lg-3 col-12 magazine-item mt-2">
                 <img src="./Images/cpm.webp" alt='magazine img' class='img-fluid'>
                 <h6 class="position-absolute py-2 px-3 category"><a href="#">U.S.</a></h6>
@@ -638,8 +641,8 @@
                     decision who to vote for," one security commentator told Newsweek.</p>
             </div>
         </div>
-        <h5 class='d-block ml-4 pl-3 my-3 topic-heading'><a href="#">U.S.</a></h5>
-        <div class='row topics mx-4 my-3 border-secondary border-bottom'>
+        <h5 class='d-block my-3 topic-heading'><a href="#">U.S.</a></h5>
+        <div class='row topics my-3 border-secondary border-bottom'>
             <div class='col-lg-4 col-12 topic-item'>
                 <img src="./Images/venti.webp" class="img-fluid" alt="topic-image">
                 <a href='#' class='d-inline-block pt-2'>The Devin Nunes Fake Cow Parody Account Has Followed Him to
@@ -665,8 +668,8 @@
                 </div>
             </div>
         </div>
-        <h5 class='d-block ml-4 pl-3 my-3 topic-heading'><a href="#">World</a></h5>
-        <div class='row topics mx-4 my-3 border-secondary border-bottom'>
+        <h5 class='d-block my-3 topic-heading'><a href="#">World</a></h5>
+        <div class='row topics my-3 border-secondary border-bottom'>
             <div class='col-lg-4 col-12 topic-item'>
                 <img src="./Images/venti.webp" class="img-fluid" alt="topic-image">
                 <a href='#' class='d-inline-block pt-2'>The Devin Nunes Fake Cow Parody Account Has Followed Him to
@@ -692,8 +695,8 @@
                 </div>
             </div>
         </div>
-        <h5 class='d-block ml-4 pl-3 my-3 topic-heading'><a href="#">Business</a></h5>
-        <div class='row topics mx-4 my-3 border-secondary border-bottom'>
+        <h5 class='d-block my-3 topic-heading'><a href="#">Business</a></h5>
+        <div class='row topics border-secondary border-bottom'>
             <div class='col-lg-4 col-12 topic-item'>
                 <img src="./Images/venti.webp" class="img-fluid" alt="topic-image">
                 <a href='#' class='d-inline-block pt-2'>The Devin Nunes Fake Cow Parody Account Has Followed Him to
@@ -719,8 +722,8 @@
                 </div>
             </div>
         </div>
-        <h5 class='d-block ml-4 pl-3 my-3 topic-heading'><a href="#">Tech & Science</a></h5>
-        <div class='row topics mx-4 my-3 border-secondary border-bottom'>
+        <h5 class='d-block my-3 topic-heading'><a href="#">Tech & Science</a></h5>
+        <div class='row topics my-3 border-secondary border-bottom'>
             <div class='col-lg-4 col-12 topic-item'>
                 <img src="./Images/venti.webp" class="img-fluid" alt="topic-image">
                 <a href='#' class='d-inline-block pt-2'>The Devin Nunes Fake Cow Parody Account Has Followed Him to
@@ -746,8 +749,8 @@
                 </div>
             </div>
         </div>
-        <h5 class='d-block ml-4 pl-3 my-3 topic-heading'><a href="#">Culture</a></h5>
-        <div class='row topics mx-4 my-3 border-secondary border-bottom'>
+        <h5 class='d-block my-3 topic-heading'><a href="#">Culture</a></h5>
+        <div class='row topics my-3 border-secondary border-bottom'>
             <div class='col-lg-4 col-12 topic-item'>
                 <img src="./Images/venti.webp" class="img-fluid" alt="topic-image">
                 <a href='#' class='d-inline-block pt-2'>The Devin Nunes Fake Cow Parody Account Has Followed Him to
@@ -773,8 +776,8 @@
                 </div>
             </div>
         </div>
-        <h5 class='d-block ml-4 pl-3 my-3 topic-heading'><a href="#">Sports</a></h5>
-        <div class='row topics mx-4 my-3 border-secondary border-bottom'>
+        <h5 class='d-block my-3 topic-heading'><a href="#">Sports</a></h5>
+        <div class='row topics my-3 border-secondary border-bottom'>
             <div class='col-lg-4 col-12 topic-item'>
                 <img src="./Images/venti.webp" class="img-fluid" alt="topic-image">
                 <a href='#' class='d-inline-block pt-2'>The Devin Nunes Fake Cow Parody Account Has Followed Him to
@@ -801,7 +804,7 @@
             </div>
         </div>
         <div class="row sub-footer border-secondary border-bottom">
-            <div class="col-lg-8 col-12 px-5 py-4">
+            <div class="col-lg-8 col-12 py-4 px-0">
                 <h6 class="text-danger">SUBSCRIBE</h6>
                 <div class="d-lg-flex justify-content-around bg-light subscribe">
                     <img src="./Images/nw-foot.jpg" alt="image" class="img-fluid img-1 py-5 px-4">
@@ -818,7 +821,8 @@
                 <h6 class="text-danger">NEWSLETTER</h6>
                 <div class="d-flex justify-content-around">
                     <img src="./Images/newsletter-img.png" alt="newsletter" class="img-fluid d-none d-lg-block">
-                    <div class="newsletter-content d-block pl-3 mr-0 pt-5 border-secondary border border-left-0 text-center">
+                    <div
+                        class="newsletter-content d-block pl-3 mr-0 pt-5 border-secondary border border-left-0 text-center">
                         <h4>The Starting 5</h4>
                         <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
                         <form action="#" class="form-group">
@@ -830,7 +834,7 @@
             </div>
         </div>
     </div><!-- end of container-fluid -->
-    <footer class="mt-4">
+    <footer class="mt-4 mx-auto">
         <div class="footer-first border-secondary border-bottom d-lg-flex justify-content-between">
             <div class="footer-left d-lg-flex">
                 <img src="./Images/newsweek-red.svg" class='mr-3' alt="red-logo">
@@ -845,9 +849,9 @@
             </ul>
         </div>
         <div class="second-footer">
-            <div class="d-flex justify-content-start mt-2 px-2 footer-list">
+            <div class="d-flex justify-content-start mt-2 footer-list">
                 <h6>Editions:</h6>
-                <ul class="d-inline-flex ml-2 list-unstyled mt-n2">
+                <ul class="d-inline-flex list-unstyled mt-n2">
                     <li class="nav-item"><a class="nav-link" href="#">U.S. Edition</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">日本</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Pakistan</a></li>
@@ -856,7 +860,7 @@
                 </ul>
             </div>
             <ul class="list-unstyled mt-n3 navbar-nav navbar-expand-lg footer-list">
-                <li class="nav-item"><a class="nav-link border-secondary border-right p-0 px-2 form-control-sm"
+                <li class="nav-item"><a class="nav-link border-secondary border-right p-0 pr-2 form-control-sm"
                         href="#">About Us</a></li>
                 <li class="nav-item p-0"><a class="nav-link border-secondary border-right p-0 px-2 form-control-sm"
                         href="#">Corrections</a></li>

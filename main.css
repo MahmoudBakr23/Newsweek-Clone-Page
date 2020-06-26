@@ -8,8 +8,15 @@ body {
 
 header {
   background-color: red;
-  margin: 0 1.9%;
 }
+
+header,
+main,
+footer,
+.magazine-container {
+  max-width: 1310px;
+}
+
 
 .nav-link {
   font-weight: bold;
@@ -110,10 +117,20 @@ header img {
   color: #333;
 }
 
+.grid-heading span,
+.start-day span {
+  background: red url('./Images/n.svg');
+  background-repeat: no-repeat;
+}
+
+.start-day span {
+  height: 30px;
+  width: 50px;
+}
+
 .grid-heading span {
   height: 28px;
   width: 29px;
-  background: red url('./Images/n.svg');
 }
 
 .magazine-item span {
@@ -183,6 +200,11 @@ header img {
   top: 135px;
 }
 
+.start-day h5 {
+  line-height: 1;
+}
+
+.start-day h5,
 .subscribe-content h4,
 .second-footer h6,
 .sub-footer h6 {
