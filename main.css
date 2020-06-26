@@ -51,12 +51,11 @@ header {
 
 .stories a {
   color: #999;
-} 
+}
 
 .more-stories a {
   color: #000;
 }
-
 
 .story-tag:hover {
   color: red;
@@ -88,10 +87,6 @@ header img {
 
 .people-blue {
   border-bottom: 5px solid blue;
-}
-
-.people a:hover {
-  color: red;
 }
 
 .people-tag {
@@ -126,21 +121,9 @@ header img {
 }
 
 .magazine-item > a {
-  color: #000;  
+  color: #000;
   line-height: 1.1;
   font-size: 1.2em;
-}
-
-.magazine-item div a {
-  color: red;
-}
-
-.magazine .magazine-item img {
-  height: 60%;
-}
-
-.editors-pick .magazine-item > a {
-  font-size: 1.4em;
 }
 
 .topic-item a {
@@ -148,8 +131,8 @@ header img {
   line-height: 1.1;
 }
 
-.topic-items > div:first-of-type {
-  height: 25%;
+.magazine-item div a {
+  color: red;
 }
 
 .topic-heading a {
@@ -163,26 +146,75 @@ header img {
   color: #000;
 }
 
-.img-1,
+.footer-first a,
+.second-footer a {
+  color: #333;
+  font-weight: 300;
+}
+
+.people a:hover {
+  color: red;
+}
+
+.editors-pick .magazine-item > a {
+  font-size: 1.4em;
+}
+
+.magazine .magazine-item img {
+  height: 60%;
+}
+
+.topic-items > div:first-of-type {
+  height: 25%;
+}
+
 .img-2 {
   width: 160px;
   height: 200px;
   position: absolute;
 }
 
-.subscribe-content {
-  padding-left: 40%;
-  padding-top: 10%;
-}
-
-.img-1 {
-  left: 80px;
-  top: 50px;
-}
-
 .img-2 {
-  left: 170px;
-  top: 70px;
+  left: 100px;
+  top: 135px;
+}
+
+.subscribe-content h4,
+.second-footer h6,
+.sub-footer h6 {
+  font-weight: bold;
+}
+
+.border-secondary {
+  border-color: #ebebeb!important;
+}
+
+.subscribe button {
+  font-weight: bold;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.subscribe button img {
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+}
+
+.footer-left {
+  align-items: baseline;
+}
+
+.footer-left p {
+  font-size: 0.8em;
+}
+
+.footer-left img {
+  width: 55%;
+}
+
+.footer-first i {
+  font-size: 1.3em;
 }
 
 @media only screen and (max-width: 576px) {
