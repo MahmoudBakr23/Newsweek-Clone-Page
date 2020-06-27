@@ -180,14 +180,14 @@ header img {
   font-size: 1.4em;
 }
 
+.footer-left img {
+  width: 55%;
+}
+
 .subscribe button img {
   width: 14px;
   height: 14px;
   margin-left: 4px;
-}
-
-.footer-left img {
-  width: 55%;
 }
 
 .magazine .magazine-item img {
