@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 header {
@@ -16,7 +16,6 @@ footer,
 .magazine-container {
   max-width: 1310px;
 }
-
 
 .nav-link {
   font-weight: bold;
@@ -119,7 +118,7 @@ header img {
 
 .grid-heading span,
 .start-day span {
-  background: red url('./Images/n.svg');
+  background: red url("./Images/n.svg");
   background-repeat: no-repeat;
 }
 
@@ -152,10 +151,6 @@ header img {
   line-height: 1.1;
 }
 
-.magazine-item div a {
-  color: red;
-}
-
 .topic-heading a {
   color: #f72210;
   font-weight: bold;
@@ -173,12 +168,20 @@ header img {
   font-weight: 300;
 }
 
+.magazine-item div a {
+  color: red;
+}
+
 .people a:hover {
   color: red;
 }
 
 .editors-pick .magazine-item > a {
   font-size: 1.4em;
+}
+
+.footer-left img {
+  width: 55%;
 }
 
 .magazine .magazine-item img {
@@ -206,6 +209,18 @@ header img {
   border-radius: 15px;
 }
 
+.subscribe button {
+  font-weight: bold;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.subscribe button img {
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+}
+
 .form-inline button:first-of-type {
   font-weight: bold;
   text-transform: uppercase;
@@ -221,9 +236,6 @@ header img {
   width: 160px;
   height: 200px;
   position: absolute;
-}
-
-.img-2 {
   left: 100px;
   top: 135px;
 }
@@ -240,19 +252,7 @@ header img {
 }
 
 .border-secondary {
-  border-color: #ebebeb!important;
-}
-
-.subscribe button {
-  font-weight: bold;
-  text-transform: uppercase;
-  align-items: center;
-}
-
-.subscribe button img {
-  width: 14px;
-  height: 14px;
-  margin-left: 4px;
+  border-color: #ebebeb !important;
 }
 
 .footer-left {
@@ -261,10 +261,6 @@ header img {
 
 .footer-left p {
   font-size: 0.8em;
-}
-
-.footer-left img {
-  width: 55%;
 }
 
 .footer-first i {
@@ -281,7 +277,7 @@ header img {
   }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 769px) {  
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
   .nav-link {
     font-size: 14px;
   }
@@ -289,7 +285,7 @@ header img {
   .form-inline .nav-search {
     font-size: 0.9em;
   }
-  
+
   .second-footer .footer-list {
     display: block;
     margin: 0;
@@ -357,5 +353,4 @@ header img {
   .second-footer .footer-list a {
     font-size: 14px;
   }
-
 }
