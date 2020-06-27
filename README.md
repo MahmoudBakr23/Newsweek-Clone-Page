@@ -19,15 +19,17 @@ This is a clone of the Newsweek website
 
 ## Authors
 
-👤 **Author1**
+👤 **Mahmoud Bakr**
 
 - Github: [@MahmoudBakr23](https://github.com/MahmoudBakr23)
 - LinkedIn: [Mahmoud Bakr](https://www.linkedin.com/in/mahmoud-bakr-a76323194/)
 - Gmail: mbakr6821@gmail.com
 
-👤 **Author2**
+👤 **Mark Rode**
 
 - Github: [@m15e](https://github.com/m15e)
+- LinkedIn: [Mark Rode](https://www.linkedin.com/in/m15e)
+- Gmail: mark.a.rode@gmail.com
 
 ## 🤝 Contributing
 

@@ -11,6 +11,7 @@ header {
   background-color: red;
 }
 
+.semi-body,
 header,
 main,
 footer,
@@ -252,10 +253,6 @@ header img {
   font-weight: bold;
 }
 
-.border-secondary {
-  border-color: #ebebeb !important;
-}
-
 .footer-left {
   align-items: baseline;
 }
@@ -314,7 +311,7 @@ header img {
   }
 
   .signup {
-    max-width: 50%;
+    max-width: 42%;
     margin: 0 auto;
   }
 
