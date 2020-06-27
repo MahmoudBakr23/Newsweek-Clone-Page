@@ -11,7 +11,7 @@ This is a clone of the Newsweek website
 - HTML
 - CSS3
 
-[Live Demo Link](https://rawcdn.githack.com/MahmoudBakr23/Newsweek-Clone-Page/736049f394f699fb6c5b74189d22e05023c987cb/index.html)
+[Live Demo Link](https://rawcdn.githack.com/MahmoudBakr23/Newsweek-Clone-Page/a9c2ff676a96838987bea138f6963f6938370312/index.html)
 
 ## Getting Started
 
