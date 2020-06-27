@@ -11,6 +11,22 @@ header {
   background-color: red;
 }
 
+header .last-header::before {
+  position: absolute;
+  top: 9;
+  right: 0px;
+  content: "";
+  display: block;
+  background-color: red;
+  border-left: 12px solid white;
+  border-top: 13px solid red;
+  width: 180px;
+}
+
+.last-header {
+  width: auto;
+}
+
 .semi-body,
 header,
 main,
@@ -242,6 +258,10 @@ header img {
   top: 135px;
 }
 
+.subscribe-content {
+  width: 560px;
+}
+
 .start-day h5 {
   line-height: 1;
 }
@@ -265,7 +285,7 @@ header img {
   font-size: 1.3em;
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1220px) {
+@media only screen and (min-width: 992px) and (max-width: 1220px) {
   .nav-link {
     font-size: 14px;
   }
@@ -273,16 +293,44 @@ header img {
   .form-inline .nav-search {
     font-size: 0.9em;
   }
+
+  header .last-header::before {
+    width: 112px;
+  }
+
+  .subscribe-content {
+    width: 420px;
+  }
+
+  .footer-left img {
+    width: 200px;
+  }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 769px) {
+@media only screen and (max-width: 991px) and (min-width: 769px) {
   .nav-link {
     font-size: 14px;
+  }
+
+  .logo-image {
+    width: 200px;
   }
 
   .signup {
     max-width: 50%;
     margin: 0 auto;
+  }
+
+  .subscribe-content {
+    width: 660px;
+  }
+
+  .newsletter-content {
+    width: 100%;
+  }
+
+  .newsletter-content button {
+    width: 100%;
   }
 
   .form-inline .nav-search {
@@ -295,12 +343,30 @@ header img {
     padding: 0;
   }
 
+  .footer-left img {
+    width: 200px;
+  }
+
   .second-footer .footer-list li {
     display: inline-block;
   }
 
   .second-footer .footer-list a {
     font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  .img-2 {
+    left: 130px;
+  }
+
+  .subscribe-content {
+    width: 500px;
+  }
+
+  .footer-left img {
+    width: 200px;
   }
 }
 
@@ -319,6 +385,24 @@ header img {
     width: 100%;
   }
 
+  .img-2 {
+    left: 330px;
+  }
+
+  .subscribe-content {
+    width: auto;
+  }
+
+  .subscribe-content {
+    text-align: center;
+    position: absolute;
+    top: 200px;
+  }
+
+  .subscribe-content button {
+    margin: 0 auto;
+  }
+
   .second-footer .footer-list {
     display: block;
     margin: 0;
@@ -331,6 +415,10 @@ header img {
 
   .second-footer .footer-list a {
     font-size: 14px;
+  }
+
+  .footer-left img {
+    width: 200px;
   }
 }
 
@@ -356,6 +444,20 @@ header img {
     width: 100%;
   }
 
+  .img-2 {
+    left: 200px;
+  }
+
+  .subscribe-content {
+    text-align: center;
+    position: absolute;
+    top: 200px;
+  }
+
+  .subscribe-content button {
+    margin: 0 auto;
+  }
+
   .second-footer .footer-list {
     display: block;
     margin: 0;
@@ -374,5 +476,13 @@ header img {
 @media only screen and (max-width: 380px) {
   .login {
     display: none;
+  }
+
+  .img-2 {
+    left: 100px;
+  }
+
+  .newsletter-text {
+    margin-top: 25%;
   }
 }
