@@ -403,6 +403,14 @@ header img {
     margin: 0 auto;
   }
 
+  .newsletter-content {
+    width: 100%;
+  }
+
+  .newsletter-content button {
+    width: 100%;
+  }
+
   .second-footer .footer-list {
     display: block;
     margin: 0;
