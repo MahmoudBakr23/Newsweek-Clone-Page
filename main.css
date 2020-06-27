@@ -180,6 +180,12 @@ header img {
   font-size: 1.4em;
 }
 
+.subscribe button img {
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+}
+
 .footer-left img {
   width: 55%;
 }
@@ -213,12 +219,6 @@ header img {
   font-weight: bold;
   text-transform: uppercase;
   align-items: center;
-}
-
-.subscribe button img {
-  width: 14px;
-  height: 14px;
-  margin-left: 4px;
 }
 
 .form-inline button:first-of-type {
