@@ -4,6 +4,7 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
+  background-color: rgb(236, 236, 236);
 }
 
 header {
@@ -282,6 +283,11 @@ header img {
     font-size: 14px;
   }
 
+  .signup {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
   .form-inline .nav-search {
     font-size: 0.9em;
   }
@@ -305,6 +311,11 @@ header img {
   header img {
     width: 120px;
     margin-left: 0;
+  }
+
+  .signup {
+    max-width: 50%;
+    margin: 0 auto;
   }
 
   .story-head img {
@@ -336,6 +347,14 @@ header img {
     margin-left: 0;
   }
 
+  .expandable {
+    padding: 10px 0px;
+  }
+
+  .signup {
+    max-width: 100%;
+  }
+
   .story-head img {
     width: 100%;
   }
@@ -352,5 +371,11 @@ header img {
 
   .second-footer .footer-list a {
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .login {
+    display: none;
   }
 }
