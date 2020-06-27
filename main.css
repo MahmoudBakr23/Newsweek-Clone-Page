@@ -271,15 +271,69 @@ header img {
   font-size: 1.3em;
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1220px) {
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .form-inline .nav-search {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {  
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .form-inline .nav-search {
+    font-size: 0.9em;
+  }
+  
+  .second-footer .footer-list {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .second-footer .footer-list li {
+    display: inline-block;
+  }
+
+  .second-footer .footer-list a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header img {
+    width: 120px;
+    margin-left: 0;
+  }
+
+  .story-head img {
+    width: 100%;
+  }
+
+  .second-footer .footer-list {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .second-footer .footer-list li {
+    display: inline-block;
+  }
+
+  .second-footer .footer-list a {
+    font-size: 14px;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   header {
     margin: 0;
   }
-
-  /* .row {
-    padding: 0 auto;
-    margin: 0;
-  } */
 
   header img {
     width: 120px;
