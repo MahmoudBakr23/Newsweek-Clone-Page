@@ -29,7 +29,6 @@ This is a clone of the Newsweek website
 
 - Github: [@m15e](https://github.com/m15e)
 - LinkedIn: [Mark Rode](https://www.linkedin.com/in/m15e)
-- Gmail: mark.a.rode@gmail.com
 
 ## 🤝 Contributing
 
